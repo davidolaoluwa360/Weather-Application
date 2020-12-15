@@ -1,5 +1,5 @@
 <h1>Weather Application</h1>
-<div style="background-color: black">
+<div class="bg-gray-dark">
     <img src="./images/weatherLogo.png" align="center"/>
 </div>
 <br><br>
@@ -11,4 +11,4 @@
 <br></br>
 
 <h2>Live Url</h2>
-<button style="background-color; black; color: white"><a target="_blank" href="https://davidolaoluwa360.github.io/Weather-Application/">Visit Weather Application</a></button>
+<button class="bg-gray-dark"><a target="_blank" href="https://davidolaoluwa360.github.io/Weather-Application/">Visit Weather Application</a></button>
