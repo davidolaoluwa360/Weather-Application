@@ -9,8 +9,8 @@ let apiKey = 'b0bf22f7c57cde029bd7c6027fbaf41b';
 let cityCode = 84653;
 
 // Weather api url from open weather map
-// Note: When deployed remote the http part of the url and change it to (//)
-// When working locally make sure to have the http included in the url or else it wont work (http:)
+// Note: When deployed remove the http part of the url and change it to //
+// When working locally make sure to have the http included in the url or else it wont work http://
 let weatherConditionurl = `//api.openweathermap.org/data/2.5/weather?zip=${cityCode}&appid=${apiKey}&units=imperial`;
 let cObj;
 let weatherCondition = new XMLHttpRequest();
@@ -38,8 +38,8 @@ weatherCondition.send();
 // ==================================================
 let fObj;
 // Weather api url from open weather map
-// Note: When deployed remote the http part of the url and change it to (//)
-// When working locally make sure to have the http included in the url or else it wont work (http:)
+// Note: When deployed remove the http part of the url and change it to //
+// When working locally make sure to have the http included in the url or else it wont work http:
 let weatherForecasturl = `//api.openweathermap.org/data/2.5/forecast?zip=${cityCode}&appid=${apiKey}`;
 let weatherForecast = new XMLHttpRequest();
 weatherForecast.open("GET", weatherForecasturl, true);
@@ -54,8 +54,8 @@ weatherForecast.onload = function (){
         // ==================================================
         function displayImg(index){
             let imgUrl = fObj.list[index].weather[0].icon;
-            // Note: When deployed remote the http part of the url and change it to (//)
-            // When working locally make sure to have the http included in the url or else it wont work (http:)
+            // Note: When deployed remove the http part of the url and change it to //
+            // When working locally make sure to have the http included in the url or else it wont work http:
             let imgPath = `//openweathermap.org/img/w/${imgUrl}.png`;
             return imgPath;
         }
