@@ -3,13 +3,13 @@
     <img src="./images/weatherLogo.png" align="center"/>
     <p>Weather App was developed using XMLHTTPRequest and communicating with an OpenWeather Map. This is a practice excersise from a pluralsight course, which aims is to learn more about working with JSON and http request methods in general.</p>
 </div>
-<br><br>
+<br>
 
 <h2>
     Neat Interface
 </h2>
 <img src="./images/weather-interface.PNG" align="center"/>
-<br></br>
+<br>
 
 
 
@@ -19,7 +19,7 @@
 
 <h2>Usage</h2>
 <p>Git Clone: To clone the repository locally</p>
-<br><br>
+<br>
 
 <h2>Atrributes</h2>
 <ul>
