@@ -13,8 +13,12 @@
 
 
 
-<h2>Live Url</h2>
+<h2>Live Page</h2>
 <button class="bg-gray-dark"><a target="_blank" href="https://davidolaoluwa360.github.io/Weather-Application/">Visit Weather Application</a></button>
+<br><br>
+
+<h2>Usage</h2>
+<p>Git Clone: To clone the repository locally</p>
 <br><br>
 
 <h2>Atrributes</h2>
